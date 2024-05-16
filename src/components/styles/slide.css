@@ -1,0 +1,13 @@
+.slide-content {
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .slide-content:hover {
+    transform: scale(1.2);
+    z-index: 1;
+  }
+  
+  .slide-content:not(:hover) {
+    transform: scale(1);
+  }
